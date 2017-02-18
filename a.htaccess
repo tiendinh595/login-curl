@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine on
+#RewriteRule ^([a-z0-9_-]+)/?$ index.php?controller=$1 [NC,L]
+#RewriteRule ^([a-z0-9_-]+)/([a-z0-9]+)/?$ index.php?controller=$1&action=$2 [NC,L]
+#RewriteRule ^([a-z0-9_-]+)/([a-z0-9]+)/(.*)/?$ index.php?controller=$1&action=$2&param=$3 [NC,L]
